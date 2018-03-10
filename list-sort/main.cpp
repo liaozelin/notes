@@ -1,6 +1,9 @@
 /*
  * 使用快速排序对单链表进行排序
  * 也可用归并排序：快慢两个指针将链表一切为二，递归再合并
+ * LeetCode题目：
+ *   https://leetcode.com/problems/insertion-sort-list/description/
+ *   https://leetcode.com/problems/sort-list/description/
  * */
 
 #include<iostream>

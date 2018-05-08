@@ -32,9 +32,8 @@ void perm(string s) {
 char target[100];
 int tar_count = 0;
 void print() {
-    for (int i = 0; i < tar_count; ++i) {
+    for (int i = 0; i < tar_count; ++i)
         cout << target[i];
-    }
     cout << endl;
 }
 void comb_driver(char* str, int cur, int target_len, int len) {
